@@ -1,11 +1,51 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+
+table {
+  table-layout: auto;
+  width: 100%;
+  border: 2px solid #800080;
+  border-collapse: collapse;
+}
+
+tbody {
+  text-align: center;
+  font-family: "Helvetica Neu";
+  background-image: url("./assets/noise.png");
   margin: 2em;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+tbody td {
+  padding:  10px;
 }
+
+tbody tr {
+  background-color:#ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color:#e495e4;
+}
+
+th {background-image: url("./assets/leopardskin.jpg");
+  font-family: "Rock Salt", cursive;
+  color: white;
+  border: 2px solid #800080;
+  padding: 15px;
+} 
+
+tfoot {
+  font-family: "Rock Salt", cursive;
+  background-image: url("./assets/leopardskin.jpg");
+  color: white;
+}
+
+tfoot td {
+  padding: 15px;
+  border: 2px solid #800080;
+}
+
+footer {
+  font-family: "Rock Salt", cursive;
+  text-align: right;
+} 
