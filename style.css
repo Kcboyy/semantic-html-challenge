@@ -27,8 +27,9 @@ tbody tr:nth-child(even) {
   background-color:#e495e4;
 }
 
-th {background-image: url("./assets/leopardskin.jpg");
+th {
   font-family: "Rock Salt", cursive;
+  background-image: url("./assets/leopardskin.jpg"); color: rgba(0,0,0,0.1);
   color: white;
   border: 2px solid #800080;
   padding: 15px;
@@ -36,7 +37,7 @@ th {background-image: url("./assets/leopardskin.jpg");
 
 tfoot {
   font-family: "Rock Salt", cursive;
-  background-image: url("./assets/leopardskin.jpg");
+  background-image: url("./assets/leopardskin.jpg"); color: rgba(0,0,0,0.5);
   color: white;
 }
 
